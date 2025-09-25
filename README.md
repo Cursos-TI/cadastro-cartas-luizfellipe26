@@ -4,7 +4,7 @@ Aluno: Luiz Fellipe Rodrigues da Silva
 
 Esse foi o meu projeto para a matéria, resolvendo o **Nível Novato** do desafio Super Trunfo.
 
-Meu foco principal de estudos é em Python, então fazer esse trabalho em C foi um desafio de verdade, já que foi meu primeiro contato com a linguagem. Foi uma experiência bem legal para aprender o básico.
+Meu foco principal de estudos no momento é em Python, então fazer esse trabalho em C foi um desafio, já que foi meu primeiro contato com a linguagem. Foi uma experiência bem legal para aprender o básico.
 
 O programa `CartasSuperTrunfo.c` é bem simples: ele pede para o usuário digitar os dados de duas cidades (população, área, etc.), guarda tudo nas variáveis e no final imprime as duas cartas na tela, de forma organizada.
 
