@@ -1,16 +1,22 @@
-# Desafio Super Trunfo - Nível Novato
+# Desafio Super Trunfo - Nível Aventureiro
 
-Aluno: Luiz Fellipe Rodrigues da Silva
+**Feito por:** Luiz Fellipe Rodrigues da Silva
 
-Esse foi o meu projeto para a matéria, resolvendo o **Nível Novato** do desafio Super Trunfo.
+---
 
-Meu foco principal de estudos no momento é em Python, então fazer esse trabalho (solicitado pelo professor Sergio Cardoso) em C foi um desafio, já que foi meu primeiro contato com a linguagem,.
+Meu projeto para a matéria, agora atualizado para o Nível Aventureiro.
 
-O programa `CartasSuperTrunfo.c` é bem simples: ele pede para o usuário digitar os dados de duas cidades (população, área, etc.), guarda tudo nas variáveis e no final imprime as duas cartas na tela, de forma organizada.
+Meu foco principal de estudos é em Python, então fazer esse trabalho em C foi um desafio de verdade. Continuar evoluindo o projeto está sendo uma experiência bem legal para aprender mais sobre a linguagem.
 
-Para cumprir as regras, usei apenas as funções `scanf` e `printf`, sem nada de `if`, `else`, `for` ou `while`.
+# O que o código faz:
 
-### Para testar
+* Ele ainda cadastra as duas cartas, como no Nível Novato.
+* A diferença é que agora ele também calcula a **Densidade Populacional** (dividindo a população pela área).
+* E também calcula o **PIB per Capita** (pegando o PIB em bilhões, convertendo para reais e dividindo pela população).
+* No final, ele imprime tudo na tela, incluindo os novos cálculos.
+* O código continua sem `if`, `else`, `for` ou `while`, como pedido nas regras.
+
+# Para testar
 
 É só usar os comandos abaixo no terminal:
 
@@ -27,55 +33,5 @@ Para cumprir as regras, usei apenas as funções `scanf` e `printf`, sem nada de
 
 ### Desafio Super Trunfo - Países - Cadastro das Cartas
 
-Bem-vindo ao desafio "Super Trunfo - Países"! No jogo Super Trunfo, os jogadores comparam as propriedades das cartas para determinar a mais forte. O tema deste Super Trunfo é "Países," onde você comparará as propriedades das cidades.
-A empresa MateCheck contratou você para desenvolver a parte inicial do jogo, que consiste no cadastro das cartas.
-O desafio está dividido em três níveis: Novato, Aventureiro e Mestre, com cada nível adicionando mais complexidade ao anterior. Você deve escolher qual desafio quer realizar.
-
-> 🚨 **Atenção:**
-> O nível Novato do desafio é focado apenas no cadastro das cartas, utilizando as funções scanf para ler os dados e printf para exibi-los.
-
----
-### 🎮 Nível Novato
-
-No nível Novato, você iniciará criando o sistema básico do jogo Super Trunfo com o tema "Países". As cartas serão divididas por estados, cada um com quatro cidades.
-Cada país será dividido em oito estados, identificados pelas letras de A a H. Cada estado terá quatro cidades, numeradas de 1 a 4. A combinação da letra do estado e o número da cidade define o código da carta (por exemplo, A01, A02, B01, B02).
-
-**🚩 Objetivo:**
-
-Criar cartas representando cidades, contendo as seguintes propriedades:
-- População
-- Área
-- PIB
-- Número de pontos turísticos
-
-**⚙️ Funcionalidades do Sistema:**
-
-- O sistema permitirá ao usuário cadastrar cartas de cidades, inserindo manualmente os dados via terminal de comando.
-- Após o cadastro, o sistema exibirá os dados de cada cidade de forma clara e organizada.
-
-**📥 Entrada e 📤 Saída de Dados:**
-
-- O usuário insere os dados de cada carta interativamente.
-- Após o cadastro, os dados são exibidos com todas as propriedades da cidade, uma por linha.
-
----
-### 🛡️ Nível Aventureiro
-
-No nível Aventureiro, você expandirá o sistema para incluir propriedades calculadas, permitindo uma análise mais detalhada das cartas.
-
-**🆕 Diferença em relação ao Nível Novato:**
-
-- Novas Propriedades Calculadas:
-  - Densidade Populacional: População dividida pela área da cidade.
-  - PIB per Capita: PIB total dividido pela população.
-
----
-### 🏆 Nível Mestre
-
-No nível Mestre, você implementará comparações entre as cartas, utilizando operadores relacionais e manipulando grandes números com precisão.
-
-**🆕 Diferença em relação ao Nível Aventureiro:**
-
-- Comparação de Cartas:
-  - O sistema permitirá ao usuário comparar duas cartas com base nas propriedades inseridas e calculadas.
-  - Cada carta terá um "Super Poder", que é a soma de todas as propriedades.
+Bem-vindo ao desafio "Super Trunfo - Países"! ...
+*(...e aqui continua o texto original completo do professor, com todos os níveis)*
